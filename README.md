@@ -1,23 +1,11 @@
 # Project Aplikasi Mobile - KirimAja
 
-|  | |
-| ----------- | ----------- |
-| Dini Ramadani | Jakaria Firmansyah |
-
-|  TI.23.C2 |  Pemrograman Mobile 2 |
-| ----------- | ----------- |
-|  | |
-
-
-# Project Aplikasi Mobile - KirimAja
-
 ## Anggota Tim
 | Nama              | Peran                |
 |-------------------|---------------------|
 | Dini Ramadani     | Pengembang          |
 | Jakaria Firmansyah| Pengembang          |
 
-## Informasi Proyek
 | Kelas             | Mata Kuliah         |
 |-------------------|---------------------|
 | TI.23.C2          | Pemrograman Mobile 2|
@@ -34,7 +22,4 @@ KirimAja adalah aplikasi mobile yang dirancang untuk memudahkan proses pengirima
 - **Bahasa Pemrograman**: Java
 - **Lingkungan Pengembangan**: Android Studio
 
-## Cara Menjalankan
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/ramadani00/ProjectApp_KirimAja.git
+
