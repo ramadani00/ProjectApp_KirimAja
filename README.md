@@ -22,4 +22,13 @@ KirimAja adalah aplikasi mobile yang dirancang untuk memudahkan proses pengirima
 - **Bahasa Pemrograman**: Java
 - **Lingkungan Pengembangan**: Android Studio
 
+## Storyboard
+![img1](assets/img/Storyboard.png)
+
+<br>
+
+## UI/UX
+![img2](assets/img/UIUX.png)
+
+
 
