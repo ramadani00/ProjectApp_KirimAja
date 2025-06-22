@@ -1,4 +1,4 @@
-package com.app.kirimajaapp
+package com.app.kirimaja
 
 import org.junit.Test
 
