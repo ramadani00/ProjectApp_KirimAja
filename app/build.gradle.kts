@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.app.kirimajaapp"
+    namespace = "com.app.kirimaja"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.app.kirimajaapp"
+        applicationId = "com.app.kirimaja"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

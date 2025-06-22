@@ -4,59 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CC071952">
+    android:background="#D6071952">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="104dp"
-        app:srcCompat="@drawable/motor"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="216dp"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="438dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="501dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="602dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="602dp" />
+        android:src="@drawable/motor"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="213dp" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext_background"
         android:ems="10"
-        android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="379dp" />
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:text="@string/name"
+        android:textColor="#CC000000"
+        android:textSize="16sp"
+        tools:ignore="Autofill,LabelFor,MissingConstraints,RtlSymmetry,DuplicateClickableBoundsCheck"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <EditText
+        android:id="@+id/editTextEmailPassword"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:hint="@string/enter_your_email"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="#CC000000"
+        android:textSize="16sp"
+        tools:ignore="Autofill,MissingConstraints,RtlSymmetry"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:hint="@string/enter_your_password"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="#CC000000"
+        android:textSize="16sp"
+        tools:ignore="Autofill,MissingConstraints,RtlSymmetry"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/buttonSignup"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="667dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

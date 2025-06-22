@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">KirimAjaApp</string>
+    <string name="app_name">kirimaja</string>
+    <string name="button">Get Started  >></string>
+    <string name="buttonlogin"> Login </string>
+    <string name="buttonSignup"> Sign Up </string>
+    <string name="textview">Shuttle app</string>
+    <string name="textview2">Reliable and fast goods</string>
+    <string name="textview3">Keep track of your package</string>
+    <string name="textview4">location in real-time</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="name">Enter your name</string>
 </resources>

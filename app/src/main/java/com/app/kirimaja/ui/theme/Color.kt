@@ -1,4 +1,4 @@
-package com.app.kirimajaapp.ui.theme
+package com.app.kirimaja.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

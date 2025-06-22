@@ -1,4 +1,4 @@
-package com.app.kirimajaapp.ui.theme
+package com.app.kirimaja.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
